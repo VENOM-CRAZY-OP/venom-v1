@@ -44,13 +44,13 @@ This repository contains a Telegram bot designed to perform DDoS attacks. The bo
 2. Replace the placeholder token in the script with your actual bot token:
 
    ```python
-   bot = telebot.TeleBot('YOUR_BOT_TOKEN')
+   bot = telebot.TeleBot(6533025503:AAG815G5pGjYP_6kpalaLy0EzGYYyDwpp1M)
    ```
 
 3. Add your admin user IDs in the `admin_id` list:
 
    ```python
-   admin_id = ["YOUR_ADMIN_ID"]
+   admin_id = [6812309071]
    ```
 
 ### Usage
