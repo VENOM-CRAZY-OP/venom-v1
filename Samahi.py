@@ -4,13 +4,13 @@ import logging
 from aiogram import Bot
 import asyncio
 
-API_TOKEN = 'TOKEN'
-ADMIN_ID = 'YOUR ID'
+API_TOKEN = '7451198481:AAHRGgBSt8JS3Kh-7fhxjIqJs93QReOWeJI'
+ADMIN_ID = '5870168842'
 MAX_RESTARTS = 5
 RESTART_PERIOD = 60  # Seconds
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-bot = Bot(API_TOKEN)
+bot = Bot(7451198481:AAHRGgBSt8JS3Kh-7fhxjIqJs93QReOWeJI)
 
 def start_bot():
     """Start the bot script as a subprocess."""
