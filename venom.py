@@ -4,8 +4,8 @@ import logging
 from aiogram import Bot
 import asyncio
 
-API_TOKEN = 'TOKEN'
-ADMIN_ID = 'YOUR ID'
+API_TOKEN = '7215370851:AAF4_eVmQ5ahRXiDQbV3jUNb7sFxJNC1SZA'
+ADMIN_ID = '1819016618'
 MAX_RESTARTS = 5
 RESTART_PERIOD = 60  # Seconds
 
@@ -16,11 +16,11 @@ def start_bot():
     """Start the bot script as a subprocess."""
     return subprocess.Popen(['python', 'm.py'])
 
-async def notify_admin(message):
+async def notify_admin(1819016618):
     """Send a notification message to the admin via Telegram."""
-    try:
-        await bot.send_message(ADMIN_ID, message)
-        logging.info("Admin notified: %s", message)
+    try:1819016618
+        await bot.send_message(ADMIN_ID, 1819016618)
+        logging.info("Admin notified: %s", 1819016618)
     except Exception as e:
         logging.error("Failed to send message to admin: %s", e)
 
